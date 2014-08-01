@@ -1,0 +1,12 @@
+useDynLib(PowerVenn)
+#exportPattern("^[[:alpha:]]+")
+export(
+	PowerVenn,
+	cpsets,
+	dpsets,
+	MSET
+)
+S3method(print, venn)
+S3method(plot, venn)
+S3method(summary, venn)
+S3method(print, summary.venn)
